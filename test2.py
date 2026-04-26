@@ -128,7 +128,7 @@ class CustomPomodoro:
         self.is_running = False
         self.start_btn.config(state="normal")
         self.status_label.config(text="所有任务已完成！")
-        messagebox.showinfo("太棒了", "你已经完成了预定的所有番茄钟！")
+        messagebox.showinfo("你已经完成了预定的所有番茄钟！")
 
     def reset_timer(self):
         self.is_running = False
